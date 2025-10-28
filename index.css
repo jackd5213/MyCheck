@@ -1,0 +1,68 @@
+
+li {
+	color:#000080;;
+	
+}
+h1, h2 {
+  font-size: 64px;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(138, 43, 226, 0.4);
+}
+
+body {
+	background-color: lightblue;
+	color: #000080;
+	font-size: 26px;
+	font-family: Arial;
+	line-height: 1.6;
+}
+
+form {
+	border: 7px solid purple;
+    background-color: #9370DB;
+}
+.image {
+	margin: 0px;
+	auto: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.back{
+	font-weight: bold;
+}
+.intro{
+text-align: center;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #8A2BE2;
+}
+/* Добавляем фоновое изображение  */
+body {
+    background-image: url('./фон.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+.image2{
+	border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

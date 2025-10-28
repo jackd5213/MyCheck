@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Мой первый сайт</title>
+<link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+<h1>Обо мне</h1>
+<button id = "myBtn" class='btn' style="display:block; margin: 0 auto;">Нажми меня</button>
+
+
+<button id="clickCounterBtn" class='btn' style="display:block; margin: 20px auto;">
+    Счётчик кликов: <span id="clickCount">0</span>
+</button>
+
+<p>                                                      </p>
+<img class="image"
+src="./Артем1.jpg"
+alt="Аношкин Артём"
+height="250px">
+
+
+<p class="intro">Меня зовут Артём, и я начинающий веб-разработчик. Мне нравится изучать HTML, CSS и JavaScript.</p>
+
+<h2 style="text-align: left;"> Мои интересы: </h2>
+<ul>
+<li>Компьюетные игры</li>
+<li>Программирование</li>
+<li>Спорт (воллейбол, баскетбол)</li>
+<li>Музыка</li>
+</ul>
+
+<a href="./projects.html" style="color: #000080; font-weight: bold; font-size: 60px; ">Мои проекты</a>
+
+<form action="/send-message.php" method="post">
+
+<h2>Связаться со мной</h2>
+
+  <label>Имя: <input type="text" name="name" required></label><br>
+
+  <label>Email: <input type="email" name="email" required></label><br>
+
+  <label>Сообщение: <textarea name="message" rows="5"></textarea></label><br>
+
+  <button type="submit" class="btn">Отправить</button>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
